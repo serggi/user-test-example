@@ -1,0 +1,16 @@
+{
+    "name": "serggio/user-interface_project",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "psr/log": "^1.1",
+        "symfony/http-foundation": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Error\\": "Error/",
+            "Result\\": "Result/"
+        }
+    }
+}
